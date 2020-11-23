@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
         tcllib \
         libusb-1.0-0-dev \
         supervisor \
+		lighttpd \
 #        unzip \
 #        rsyslog \
         --no-install-recommends && \
